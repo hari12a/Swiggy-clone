@@ -1,0 +1,415 @@
+/* .one{
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    border-style: solid;
+    border-top: none;
+    border-left: none; 
+    border-color: rgb(236, 236, 236);
+    box-sizing: border-box;
+    padding-top: 25px;
+    padding-left: 150px;
+    
+}
+
+.one ul {
+    display: flex;
+    list-style: none;
+    height: 100px;
+    margin-right: 50px;
+    align-items: center;
+    width: 100%;
+    position: relative; bottom: 95px;
+    position: relative; right: 150px;
+  
+}
+
+.one li {
+    margin-right: 40px;
+}
+
+.one a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative; left: 700px;
+    
+}
+
+.one a:hover{
+    color: orangered;
+}
+
+#logo {
+    height: 50px;
+    
+}
+
+/* #logo:hover {
+    height: 100px;
+} */
+/* #logo {
+    height: 50px; /* Adjust logo size */
+    /* margin-right: 20px; Space between logo and menu
+} */
+
+
+
+
+/* 
+body {
+    background-color: rgb(241, 249, 255); */
+/* } */ 
+
+
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.one {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none; 
+    border-color: rgb(236, 236, 236);
+    box-sizing: border-box;
+    padding: 15px 150px; /* Adjust padding to center logo and items */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center items */
+    cursor: pointer;
+    
+}
+
+.one ul {
+    display: flex;
+    list-style: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    flex-grow: 1; /* Allow ul to take available space */
+    align-items: center; /* Center items vertically */
+    position: relative; left: 380px;
+}
+
+.one li {
+    margin-right: 70px;
+}
+
+.one a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: color 0.3s ease; /* Smooth hover transition */
+  
+
+}
+
+ul ::first-letter {
+    font-weight: 600;
+}
+
+.one a:hover {
+    color: orangered;
+}
+
+#logo {
+    height: 50px; /* Initial height */
+    margin-right: 20px; /* Space between logo and menu */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    position: relative; bottom: 5px;
+    position: relative; right: 50px;
+
+}
+#logo:hover {
+    transform: scale(1.1); /* Increase size slightly on hover */
+ }
+
+ #other {
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-family: sans-serif;
+    position: relative; right: 50px;
+    
+
+
+ }
+
+ #other:hover {
+    color: orangered;
+    border-bottom: solid orangered; 
+ }
+
+.case {
+    position: relative; right: 460px;
+
+    
+}
+
+.search{
+    position: relative; right: 285px;
+    position: relative; top: 2px;
+}
+
+.percentage{
+    position: relative; right: 185px;
+}
+
+
+.help{
+    position: relative; right: 90px;
+}
+
+.sign{
+    position: relative; right: 5px;
+}
+
+.cart {
+    position: relative; left: 95px;
+    position: relative; top: 2px;
+}
+/* 
+section{ */
+    /* margin-left: 200px;
+    margin-right: 200px; */
+/* } */
+
+#para {
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size:larger;
+    margin-left: 180px;
+}
+
+.food1 {
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    margin-left: 180px;
+    margin-right: 180px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    gap: 45px;
+}
+
+#line1 {
+    position: relative; top: 30px;
+    
+}
+
+#para2 {
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size:larger;
+    margin-left: 180px;
+    position: relative; top: 70px;
+}
+
+#kfc {
+    height: 147px;
+}
+
+.food2 {
+    display: flex;
+    position: relative;
+    height: 160px;
+    width: 200px;
+    margin-left: 180px;
+    border-radius: 10px;
+    position: relative; top: 100px;
+    gap: 40px;
+    transition: transform 0.3s ease;
+    
+}
+
+.food2 img, p {
+    border-radius: 5%;
+    width:220px ;
+    transition: transform 0.3s ease;
+    
+}
+
+
+.wok :hover {
+    transform: scale(0.9);
+    background-color: white;
+    text-align: inherit;
+}
+
+.kfc :hover {
+    transform: scale(0.9);
+}
+
+.subway :hover {
+    transform: scale(0.9);
+}
+
+.burger :hover {
+    transform: scale(0.9);
+}
+
+.food2 p {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size:larger;
+    position: relative; bottom: 10px;
+
+ 
+}
+
+#line2 {
+    position: relative; top: 240px;
+}
+
+#para3 {
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size:larger;
+    margin-left: 180px;
+    position: relative; top: 260px;
+    
+}
+
+.buttons button {
+    position: relative; top: 280px;
+    position: relative; left: 180px;
+    border-radius: 20px;
+    height: 30px;
+    border: 1px solid;
+    border-color: rgb(199, 199, 199);
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight:bolder;
+    cursor: pointer;
+    
+
+}
+
+.food3 {
+    display: flex;
+    gap: 40px;
+}
+
+.food3 img {
+    display: flex;
+    position: relative; top: 320px;
+    height: 260px;
+    position: relative; left: 180px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+ 
+   
+}
+
+.waf :hover {
+    transform: scale(0.9);
+
+}
+
+.mishwar :hover {
+    transform: scale(0.9);
+}
+
+
+.paratha :hover {
+    transform: scale(0.9);
+}
+
+.domi :hover {
+    transform: scale(0.9);
+}
+
+footer {
+    position: relative; top: 200px;
+}
+
+#footerone{
+    background-color: rgb(222, 222, 222);
+    height: 11vh;
+    width: 100%;
+    margin-top: 25vh;
+    display: flex;
+    gap: 10px;
+   
+}
+.app{
+    font-family: sans-serif;
+    font-weight:bolder;
+    font-size: 25px;
+    margin-left: 20vw;
+    position: relative;
+    bottom: 18px;
+}
+.plsto{
+    height: 9vh;
+    margin-top: 6px;
+    margin-left: 40px;
+    position: relative; left: 100px;
+}
+.plsto:hover{
+    cursor: pointer;
+}
+#red{
+    background-color: rgb(0, 1, 41);
+    height: 40vw;
+    width: 100%;
+    position: relative;
+    bottom: 3px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+.listonee{
+    color: white;
+    font-family: 'IBM plex Sans',sans-serif;
+    font-family:cursive;
+    font-weight: bold;
+    position: relative;
+    top: 8vh;
+    list-style-type: none;
+}
+.listonee:hover{
+    cursor: pointer;
+}
+.end{
+    color:white;
+    font-family: 'IBM plex Sans',sans-serif;
+    font-family: 'roboto',sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 35vh;
+}
+.endone{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 5vh;
+    position: relative;
+    top: 7vh;
+
+}
+.love{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.horizofirst{
+    margin-left: 20vw;
+}
+.horizosec{
+    margin-left: 7vw;
+}
+
+.alpha {
+    list-style-type: none;
+}
+
